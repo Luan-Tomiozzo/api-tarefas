@@ -1,0 +1,21 @@
+{
+  "name": "api-node-sqlite",
+  "version": "1.0.0",
+  "description": "API para gerenciar atividades utilizando SQLite e Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run",
+    "setup": "npm install && npm run migrate && npm run seed"
+  },
+  "author": "Luan Pedro Tomiozzo",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.0.2"
+  }
+}
