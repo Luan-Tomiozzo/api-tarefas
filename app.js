@@ -11,8 +11,8 @@ db
   .raw('select 1+1 as result')
   .then(() => {
     console.log('Conexão com o banco de dados estabelecida com sucesso!');
-    app.listen(3000, () => {
-      console.log('Servidor rodando em http://localhost:3000');
+    app.listen(3001, () => {
+      console.log('Servidor rodando em http://localhost:3001');
     });
   })
   .catch((err) => {
