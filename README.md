@@ -1,5 +1,5 @@
 <h1 align="center">
-   <div>API de Gerenciamento de Tarefas - Node.js, Express e SQLite</div>
+   <div>API de Gerenciamento de Tarefas - Node.js e SQLite</div>
     <br>
 </h1>
 <p align="center">API RESTful criada com Node.js, SQLite e Knex.js para criação de tabelas e queries no banco de dados.</p>
