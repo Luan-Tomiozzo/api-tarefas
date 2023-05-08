@@ -29,7 +29,7 @@ Inicie a aplicação com o comando:
 ```bash
 npm run start
 ```
-A API está configurada para rodar na porta 'http://localhost:3000'.
+A API está configurada para rodar na porta 'http://localhost:5000'.
 
 ---
 ### **Endpoints**
@@ -42,7 +42,7 @@ Retorna todas as atividades cadastradas.
 - **Curl:**
 ```bash
 curl --request GET \
-  --url http://localhost:3000/api/activities
+  --url http://localhost:5000/api/activities
 ```
 
 **GET /api/activities/:id**
@@ -52,7 +52,7 @@ Retorna uma atividade específica, com base no ID informado.
 - **Curl:**
 ```bash
 curl --request GET \
-  --url http://localhost:3000/api/activities/1
+  --url http://localhost:5000/api/activities/1
 ```
 
 **POST /api/activities**
@@ -62,7 +62,7 @@ Cria uma nova atividade.
 - **Curl:**
 ```bash
 curl --request POST \
-  --url http://localhost:3000/api/activities \
+  --url http://localhost:5000/api/activities \
   --header 'Content-Type: application/json' \
   --data '{
 	"titulo": "Comprar pão",
@@ -77,7 +77,7 @@ Atualiza uma atividade existente, com base no ID informado.
 - **Curl:**
 ```bash
 curl --request PUT \
-  --url http://localhost:3000/api/activities/7 \
+  --url http://localhost:5000/api/activities/7 \
   --header 'Content-Type: application/json' \
   --data '{
     "titulo": "Estudar Node.js",
@@ -94,7 +94,7 @@ Remove uma atividade existente, com base no ID informado.
 - **Curl:**
 ```bash
 curl --request DELETE \
-  --url http://localhost:3000/api/activities/1
+  --url http://localhost:5000/api/activities/1
 ```
 ---
 ### **Licença**
