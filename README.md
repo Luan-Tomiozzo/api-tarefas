@@ -2,7 +2,7 @@
    <div>API de Gerenciamento de Tarefas - Node.js, Express e SQLite</div>
     <br>
 </h1>
-<p align="center">API RESTful criada com Node.js, Express e SQLite, utilizando Knex.js para criação de tabelas e queries no banco de dados.</p>
+<p align="center">API RESTful criada com Node.js, Knex e SQLite, utilizando Knex.js para criação de tabelas e queries no banco de dados.</p>
 <h1 align="center"></h1>
 
 ### **Instalação**
